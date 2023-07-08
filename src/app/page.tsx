@@ -1,6 +1,6 @@
+import AddTodo from "@/components/Todo/AddTodo";
 import TodoList from "@/components/Todo/TodoList";
 import Image from "next/image";
-// import TodoList from "../../components/TodoList";
 
 export default function Home() {
   return (
@@ -8,7 +8,9 @@ export default function Home() {
       <div className="px-3 py-4 rounded-xl bg-white w-full max-w-md">
         {/* Task */}
         <TodoList />
-        <div className="w-1/2 h-1.5 bg-black/80 mx-auto rounded-lg"></div>
+        {/* Add todo list portion */}
+        <AddTodo />
+        <div className="w-1/2 h-1.5 bg-black/80 mx-auto rounded-lg mt-4"></div>
       </div>
     </main>
   );
