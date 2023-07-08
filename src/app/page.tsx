@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="bg-gradient-to-tr from-secondary to-primary h-screen flex justify-center items-center">
-      <div className="px-3 py-4 rounded-xl bg-white w-full max-w-md">
+    <main className=" bg-gradient-to-tr from-secondary to-primary h-screen flex justify-center items-center">
+      <div className="shadow-2xl px-3 py-4 rounded-3xl bg-white/30 w-full max-w-md">
         {/* Task */}
         <TodoList />
         {/* Add todo list portion */}
